@@ -1,0 +1,7 @@
+rm -rf .git
+git init
+git config user.name "Vikash Consult";
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/vikashconsult/profile-comparator.git
+git push -v --force origin master
